@@ -1,0 +1,9 @@
+# .gitignore – fișiere care nu se versionează
+# Rezultate de compilare
+build/
+*.hex
+*.o
+# Jurnale
+*.log
+# Setări personale ale editorului
+.vscode/
