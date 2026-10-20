@@ -14,4 +14,4 @@ temperatură TMP36
 - `SAMPLE_PERIOD_MS` – perioada de eșantionare, în ms
 - `SERIAL_BAUD` – viteza portului serial
 - `LED_PIN` – LED de stare (pin 13)
-- `BUTTON_PIN` – buton de pornire/oprire achiziție (pin 2)
+- `BUTTON_PIN` – buton de pornire/oprire achiziție (pin 2)Comunicație serială la 115200 baud
