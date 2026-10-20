@@ -4,3 +4,5 @@ Nod de achiziție a temperaturii bazat pe Arduino Uno.
 
 ## Autor
 PAGU ADRIAN GR 2 B"Platforma: Arduino Uno R3 (ATmega328P)" 
+Autor laborator: <numele vostru>
+Autor laborator: <Pagu Adrian>
