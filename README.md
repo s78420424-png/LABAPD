@@ -1,3 +1,15 @@
+## Hardware
+Arduino Uno R3, senzor de
+temperatură TMP36
+
+## Parametri
+`SENSOR_PIN` – intrarea analogică a senzorului (A0)
+`SAMPLE_PERIOD_MS` – perioada de eșantionare, în ms
+`SERIAL_BAUD` – viteza portului serial
+`LED_PIN` – LED de stare (pin 13)
+`BUTTON_PIN` – buton de pornire/oprire achiziție (pin 2)Comunicație serială la 115200 baud
+
+
 # Sistem de achiziție și monitorizare a temperaturii (APD)
 Proiect de laborator pentru achiziția semnalelor analogice, filtrarea numerică și
 transmiterea datelor pe interfața serială UART.
