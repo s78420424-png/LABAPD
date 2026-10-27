@@ -40,3 +40,24 @@ timestamp_ms,raw_adc,voltage_v,temp_c
 - [x] Configurare repository și `.gitignore`
 - [x] Redactare specificație hardware în Markdown
 - [ ] Simulare circuit în Tinkercad Circuits
+
+Vezi [Specificația protocolului](docs/protocol.md).
+
+### Filtrarea numerică
+
+Media aritmetică pe $M$ eșantioane (filtru cu medie mobilă):
+
+$$
+y[n] = \frac{1}{M} \sum_{k=0}^{M-1} x[n-k]
+$$
+
+Implementare în C++ (valabilă pentru $n \ge M-1$):
+
+```cpp
+float mediaMobila(const float x[], int n, int M) {
+    float suma = 0.0f;
+    for (int k = 0; k < M; k++) {
+        suma += x[n - k];
+    }
+    return suma / M;
+}
